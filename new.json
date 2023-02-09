@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "*.go",
+      "use": "@now/go"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/<nome do executável>"
+    }
+  ]
+}
